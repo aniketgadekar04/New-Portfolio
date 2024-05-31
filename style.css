@@ -1,0 +1,271 @@
+:root {
+  --redc: #ff014f;
+  --mybg: #212428;
+  --color-lightn: #c4cfde;
+  --transition: 0.4s;
+  --color-subtitle: #f9004d;
+  --color-primary: #ff014f;
+}
+
+
+/* *{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+  }
+  body{
+    font-family: montserrat;
+  } */
+/* nav{ */
+/* background: #0082e6; */
+/* background-color: var(--mybg);
+    height: 80px;
+    width: 100%;
+    text-decoration: none;
+  }
+  .logo{
+    color: white;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+  }
+  nav ul{
+    float: right;
+    margin-right: 20px;
+  }
+  nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+  }
+  nav ul li a{
+    color: white;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+    text-decoration: none;
+  }
+  .ul a.active,a:hover{
+    background:var(--redc);
+    transition: .5s;
+  }
+  .checkbtn{
+    font-size: 30px;
+    color: white;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+  }
+  #check{
+    display: none;
+  }
+  @media (max-width: 952px){
+    label.logo{
+      font-size: 30px;
+      padding-left: 50px;
+    }
+    nav ul li a{
+      font-size: 16px;
+    }
+  }
+  @media (max-width: 858px){
+    .checkbtn{
+      display: block;
+    }
+    ul{
+      position: fixed;
+      width: 100%;
+      height: 100vh;
+      background: #2c3e50;
+      top: 80px;
+      left: -100%;
+      text-align: center;
+      transition: all .5s;
+    }
+    nav ul li{
+      display: block;
+      margin: 50px 0;
+      line-height: 30px;
+    }
+    nav ul li a{
+      font-size: 20px;
+    }
+    a:hover,a.active{
+      background: none;
+      color:var(--redc);
+    }
+    #check:checked ~ ul{
+      left: 0;
+    }
+  } */
+
+
+/* banner */
+
+.subtitle {
+  font-size: 14px;
+  font-family: var(--font-secondary);
+  color: var(--color-lightn);
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  font-weight: 500;
+  display: block;
+  margin-bottom: 20px;
+}
+
+
+.title {
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 62px;
+  margin-bottom: 22px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.kul {
+  color: var(--redc);
+}
+
+.banner {
+  background-color: var(--mybg);
+}
+
+.description {
+  font-size: 16px;
+  line-height: 30px;
+  color: var(--color-lightn);
+  padding-right: 16%;
+  opacity: 0.9;
+}
+
+.maintext {
+  /* position: absolute;
+    top: 50%;
+    transform: translate(0, -20%);
+    padding: 10px; */
+
+  border: 1px solid black;
+}
+
+
+.sectext {
+  border: 1px solid black;
+}
+
+/* banner end */
+
+@import url(//fonts.googleapis.com/css?family=Montserrat:300,500,600,700,800);
+
+.static-slider1 {
+  font-family: "Montserrat", sans-serif;
+  color: #8d97ad;
+  font-weight: 300;
+}
+
+.static-slider1 h1,
+.static-slider1 h2,
+.static-slider1 h3,
+.static-slider1 h4,
+.static-slider1 h5,
+.static-slider1 h6 {
+  color: #3e4555;
+}
+
+.static-slider1 .title {
+  /* font-weight: 700;
+    line-height: 56px;
+    font-size: 36px; */
+
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 62px;
+  margin-bottom: 22px;
+  font-family: "Montserrat", sans-serif;
+}
+
+/* .static-slider1 .title span {
+     border-bottom: 3px solid #2cdd9b; 
+} */
+
+@media (max-width:767px) {
+  .static-slider1 .title {
+    font-weight: 700;
+    line-height: 36px;
+    font-size: 24px;
+  }
+}
+
+.static-slider1 .btn-success-gradiant {
+  background: #2cdd9b;
+}
+
+.static-slider1 .btn-success-gradiant:hover {
+  background: #1dc8cc;
+}
+
+.static-slider1 .btn-md {
+  padding: 15px 45px;
+  font-size: 16px;
+}
+
+/* .static-slider1 .text-success-gradiant {
+    
+} */
+
+
+.box {
+  display: flex;
+}
+
+.bx {
+  padding: 10px;
+  border: 1px solid black;
+}
+
+.static-slider1 {
+  background-color: var(--mybg);
+}
+
+
+.sub-title {
+  color: var(--color-subtitle);
+  letter-spacing: 1px;
+  display: block;
+  line-height: 14px;
+}
+
+
+.boxx {
+  border: 1px solid white;
+}
+
+
+/* .inner {
+  transition: 700ms cubic-bezier(0.17, 0.67, 0, 1.01);
+  transform: translateY(20px);
+} */
+
+.title2{
+  font-family: var(--color-primary);
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+    margin-bottom: 20px;
+    color: var(--color-lightn);
+}
+
+.description1{
+  font-size: 16px;
+    line-height: 28px;
+    color: var(--color-lightn);
+    margin-bottom: 22px;
+    transition: var(--transition);
+}
