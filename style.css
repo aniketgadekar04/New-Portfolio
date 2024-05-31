@@ -228,6 +228,7 @@
 .bx {
   padding: 10px;
   border: 1px solid black;
+  margin-right: 20px;
 }
 
 .static-slider1 {
@@ -244,7 +245,8 @@
 
 
 .boxx {
-  border: 1px solid white;
+  border: 1px solid rgb(85, 85, 85);
+  box-shadow: 0px 0px 19px 11px rgba(64, 64, 64, 0.3);
 }
 
 
